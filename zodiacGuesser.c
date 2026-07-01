@@ -12,6 +12,16 @@ int main () {
 
     printf("What month were you born? ");
     scanf("%d", &month);
-
+    
+    printf("What day: ");
+    scanf("%d", &day);
+    
+    
+    if (!Month < 12){
+	printf("Invalid Input");
+    }
+    
+    
+    
     return 0;
 }
